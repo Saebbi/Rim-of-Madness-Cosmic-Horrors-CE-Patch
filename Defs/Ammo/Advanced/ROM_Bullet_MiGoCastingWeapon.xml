@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+      <defName>AmmoMiGoCastingWeapon</defName>
+      <label>MiGo Casting Weapon</label>
+      <parent>AmmoAdvanced</parent>
+      <iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
+    </ThingCategoryDef>
+	
+	<!-- ==================== AmmoSet ========================== -->
+
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_MiGoCastingWeapon</defName>
+    <label>MiGo Casting Weapon ammo</label>
+    <ammoTypes>
+      <Ammo_MiGoCastingWeapon>Bullet_MiGoCastingWeapon</Ammo_MiGoCastingWeapon>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+	
+	<!-- ==================== Ammo ========================== -->
+
+  <ThingDef Name="MiGoCastingWeaponBase" ParentName="AmmoBase" Abstract="True">
+    <description>MiGo Casting Weapon ammo</description>
+    <statBases>
+	  <Mass>0.01</Mass>
+	  <Bulk>0.02</Bulk>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting</li>
+    </tradeTags>
+    <thingCategories>
+      <li>AmmoMiGoCastingWeapon</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="MiGoCastingWeaponBase">
+    <defName>Ammo_MiGoCastingWeapon</defName>
+    <label>MiGo Casting Weapon cartridge</label>
+    <graphicData>
+      <texPath>Things/Ammo/Rifle/FMJ</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.95</MarketValue>
+    </statBases>
+    <ammoClass>FullMetalJacket</ammoClass>
+  </ThingDef>
+	
+	<!-- ================== Projectiles ================== -->
+
+  <ThingDef Name="BaseMiGoCastingWeapon" ParentName="BaseBullet" Abstract="true">
+    <graphicData>
+      <texPath>Things/Projectile/Charge_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+	  <drawSize>(10,10)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <speed>120</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMiGoCastingWeapon">
+    <defName>Bullet_MiGoCastingWeapon</defName>
+    <label>Rhombohedral Energy blast</label>
+    <projectile>
+      <damageAmountBase>27</damageAmountBase>
+      <armorPenetration>0.9</armorPenetration>
+    </projectile>
+  </ThingDef>
+	
+</Defs>
