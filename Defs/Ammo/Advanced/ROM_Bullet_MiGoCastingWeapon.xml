@@ -26,10 +26,6 @@
 	  <Mass>0.01</Mass>
 	  <Bulk>0.02</Bulk>
     </statBases>
-    <tradeTags>
-      <li>CE_AutoEnableTrade</li>
-      <li>CE_AutoEnableCrafting</li>
-    </tradeTags>
     <thingCategories>
       <li>AmmoMiGoCastingWeapon</li>
     </thingCategories>
