@@ -2,7 +2,9 @@
 <ModMetaData>
   <name>Cosmic Horrors (CE compatibility patch)</name>
   <author>Saebbi</author>
-  <targetVersion>0.18.0</targetVersion>
+  <supportedVersions>
+	<li>1.0</li>
+  </supportedVersions>
   <description>
 Makes Cosmic Horrors mod compatible with Combat Extended.
 </description>
