@@ -34,7 +34,7 @@
 							<power>7</power>
 							<cooldownTime>0.55</cooldownTime>
 							<linkedBodyPartsGroup>Legs</linkedBodyPartsGroup>
-							<armorPenetration>0.55</armorPenetration>
+							<armorPenetration>0.16</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>overwhelming mind</label>
@@ -42,7 +42,7 @@
 							<power>6</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>ROM_Mind</linkedBodyPartsGroup>
-							<armorPenetration>1.00</armorPenetration>
+							<armorPenetration>3.00</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>body</label>
@@ -50,7 +50,7 @@
 							<power>10</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>ROM_Wings</linkedBodyPartsGroup>
-							<armorPenetration>0.45</armorPenetration>
+							<armorPenetration>0.26</armorPenetration>
 						</li>
 					</tools>
 				</value>

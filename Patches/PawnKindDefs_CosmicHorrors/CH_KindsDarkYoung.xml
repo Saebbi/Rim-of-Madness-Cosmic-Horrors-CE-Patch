@@ -34,7 +34,7 @@
 							<power>14</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>ROM_Hooves</linkedBodyPartsGroup>
-							<armorPenetration>0.45</armorPenetration>
+							<armorPenetration>0.23</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>tentacles</label>
@@ -42,7 +42,7 @@
 							<power>14</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
-							<armorPenetration>0.65</armorPenetration>
+							<armorPenetration>0.23</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>coiling tentacles</label>
@@ -50,7 +50,7 @@
 							<power>10</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>ROM_Tentacles</linkedBodyPartsGroup>
-							<armorPenetration>0.8</armorPenetration>
+							<armorPenetration>0.55</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>maw</label>
@@ -58,7 +58,7 @@
 							<power>12</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-							<armorPenetration>0.75</armorPenetration>
+							<armorPenetration>0.6</armorPenetration>
 						</li>
 					</tools>
 				</value>

@@ -20,7 +20,7 @@
 	
 	<!-- ==================== Ammo ========================== -->
 
-  <ThingDef Name="MiGoCastingWeaponBase" ParentName="AmmoBase" Abstract="True">
+  <ThingDef Class="CombatExtended.AmmoDef" Name="MiGoCastingWeaponBase" ParentName="AmmoBase" Abstract="True">
     <description>MiGo Casting Weapon ammo</description>
     <statBases>
 	  <Mass>0.01</Mass>
@@ -35,7 +35,7 @@
     </thingCategories>
   </ThingDef>
 
-  <ThingDef ParentName="MiGoCastingWeaponBase">
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="MiGoCastingWeaponBase">
     <defName>Ammo_MiGoCastingWeapon</defName>
     <label>MiGo Casting Weapon cartridge</label>
     <graphicData>
@@ -50,25 +50,25 @@
 	
 	<!-- ================== Projectiles ================== -->
 
-  <ThingDef Name="BaseMiGoCastingWeapon" ParentName="BaseBullet" Abstract="true">
+  <ThingDef Class="CombatExtended.AmmoDef" Name="BaseMiGoCastingWeapon" ParentName="BaseBullet" Abstract="true">
     <graphicData>
       <texPath>Things/Projectile/Charge_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>TransparentPostLight</shaderType>
 	  <drawSize>(10,10)</drawSize>
     </graphicData>
-    <projectile>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageDef>Bullet</damageDef>
       <speed>120</speed>
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseMiGoCastingWeapon">
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseMiGoCastingWeapon">
     <defName>Bullet_MiGoCastingWeapon</defName>
     <label>Rhombohedral Energy blast</label>
-    <projectile>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageAmountBase>27</damageAmountBase>
-      <armorPenetration>0.9</armorPenetration>
+      <armorPenetrationBase>0.9</armorPenetrationBase>
     </projectile>
   </ThingDef>
 	

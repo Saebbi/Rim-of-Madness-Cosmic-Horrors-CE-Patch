@@ -34,7 +34,7 @@
 							<power>15</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>ROM_Wings</linkedBodyPartsGroup>
-							<armorPenetration>0.4</armorPenetration>
+							<armorPenetration>0.16</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>left claw</label>
@@ -42,7 +42,7 @@
 							<power>30</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
-							<armorPenetration>0.75</armorPenetration>
+							<armorPenetration>0.35</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
@@ -50,7 +50,7 @@
 							<power>30</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
-							<armorPenetration>0.75</armorPenetration>
+							<armorPenetration>0.35</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>overwhelming mind</label>
@@ -58,7 +58,7 @@
 							<power>60</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>ROM_Mind</linkedBodyPartsGroup>
-							<armorPenetration>1.00</armorPenetration>
+							<armorPenetration>3.00</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>maw</label>
@@ -66,7 +66,7 @@
 							<power>20</power>
 							<cooldownTime>1.55</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-							<armorPenetration>0.85</armorPenetration>
+							<armorPenetration>0.62</armorPenetration>
 						</li>
 					</tools>
 				</value>
